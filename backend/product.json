@@ -1,0 +1,618 @@
+[
+  {
+    "name": "Casual White T-Shirt",
+    "brand": "Roadster",
+    "price": 499,
+    "discount": "60% OFF",
+    "category": "Men",
+    "subcategory": "T-Shirts",
+    "description": "Classic white t-shirt made from premium cotton. Perfect for everyday wear with a comfortable regular fit.",
+    "sizes": ["S", "M", "L", "XL"],
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Slim Fit Formal Shirt",
+    "brand": "Arrow",
+    "price": 1299,
+    "discount": "40% OFF",
+    "category": "Men",
+    "subcategory": "Shirts",
+    "description": "Elegant slim fit formal shirt perfect for office and formal occasions.",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "images": [
+      "https://images.unsplash.com/photo-1598032895397-b9472444bf93?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Denim Jacket",
+    "brand": "Levis",
+    "price": 2499,
+    "discount": "40% OFF",
+    "category": "Men",
+    "subcategory": "T-Shirts",
+    "description": "Classic denim jacket with a modern twist. Features premium quality denim and comfortable fit.",
+    "sizes": ["S", "M", "L", "XL"],
+    "images": [
+      "https://images.unsplash.com/photo-1523205771623-e0faa4d2813d?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Slim Fit Jeans",
+    "brand": "Levis",
+    "price": 1999,
+    "discount": "35% OFF",
+    "category": "Men",
+    "subcategory": "Jeans",
+    "description": "Premium slim fit jeans with stretch fabric for all-day comfort.",
+    "sizes": ["28", "30", "32", "34", "36"],
+    "images": [
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Chino Trousers",
+    "brand": "Peter England",
+    "price": 1499,
+    "discount": "45% OFF",
+    "category": "Men",
+    "subcategory": "Trousers",
+    "description": "Smart chino trousers perfect for casual and semi-formal occasions.",
+    "sizes": ["28", "30", "32", "34", "36"],
+    "images": [
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Men's Running Shorts",
+    "brand": "Nike",
+    "price": 899,
+    "discount": "30% OFF",
+    "category": "Men",
+    "subcategory": "Activewear",
+    "description": "Lightweight running shorts with moisture-wicking fabric for intense workouts.",
+    "sizes": ["S", "M", "L", "XL"],
+    "images": [
+      "https://images.unsplash.com/photo-1591195853828-11db59a44f43?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Printed Graphic Tee",
+    "brand": "HRX",
+    "price": 399,
+    "discount": "55% OFF",
+    "category": "Men",
+    "subcategory": "T-Shirts",
+    "description": "Trendy printed graphic tee for casual everyday wear.",
+    "sizes": ["S", "M", "L", "XL"],
+    "images": [
+      "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Summer Dress",
+    "brand": "ONLY",
+    "price": 1299,
+    "discount": "50% OFF",
+    "category": "Women",
+    "subcategory": "Dresses",
+    "description": "Flowy summer dress perfect for warm weather. Made from lightweight fabric with a flattering cut.",
+    "sizes": ["XS", "S", "M", "L"],
+    "images": [
+      "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1623609163859-ca93c959b98a?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Floral Maxi Dress",
+    "brand": "Vero Moda",
+    "price": 1799,
+    "discount": "45% OFF",
+    "category": "Women",
+    "subcategory": "Dresses",
+    "description": "Beautiful floral maxi dress for parties and casual outings.",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Casual Crop Top",
+    "brand": "Forever 21",
+    "price": 599,
+    "discount": "60% OFF",
+    "category": "Women",
+    "subcategory": "Tops",
+    "description": "Stylish crop top for a trendy casual look.",
+    "sizes": ["XS", "S", "M", "L"],
+    "images": [
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1485462537746-965f33f7f6a7?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Anarkali Kurti",
+    "brand": "Biba",
+    "price": 1599,
+    "discount": "40% OFF",
+    "category": "Women",
+    "subcategory": "Ethnic Wear",
+    "description": "Elegant anarkali kurti with beautiful embroidery work.",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "High Waist Jeans",
+    "brand": "Levis",
+    "price": 2199,
+    "discount": "35% OFF",
+    "category": "Women",
+    "subcategory": "Western Wear",
+    "description": "Trendy high waist jeans that complement any top.",
+    "sizes": ["26", "28", "30", "32"],
+    "images": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1475178626620-a4d074967452?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Women's Yoga Pants",
+    "brand": "Adidas",
+    "price": 1299,
+    "discount": "40% OFF",
+    "category": "Women",
+    "subcategory": "Activewear",
+    "description": "Comfortable yoga pants with 4-way stretch for maximum flexibility.",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Silk Saree",
+    "brand": "Nalli",
+    "price": 4999,
+    "discount": "20% OFF",
+    "category": "Women",
+    "subcategory": "Ethnic Wear",
+    "description": "Beautiful silk saree with traditional design for festive occasions.",
+    "sizes": ["Free Size"],
+    "images": [
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Boys Cartoon T-Shirt",
+    "brand": "H&M",
+    "price": 399,
+    "discount": "50% OFF",
+    "category": "Kids",
+    "subcategory": "Boys Clothing",
+    "description": "Fun cartoon printed t-shirt for boys. Soft and comfortable fabric.",
+    "sizes": ["2-3Y", "3-4Y", "4-5Y", "5-6Y", "6-7Y"],
+    "images": [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Girls Frock",
+    "brand": "Zara Kids",
+    "price": 799,
+    "discount": "45% OFF",
+    "category": "Kids",
+    "subcategory": "Girls Clothing",
+    "description": "Pretty floral frock for little girls. Perfect for parties and outings.",
+    "sizes": ["2-3Y", "3-4Y", "4-5Y", "5-6Y"],
+    "images": [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Baby Onesie Set",
+    "brand": "FirstCry",
+    "price": 599,
+    "discount": "40% OFF",
+    "category": "Kids",
+    "subcategory": "Infants",
+    "description": "Soft and comfortable onesie set for infants. Made from 100% cotton.",
+    "sizes": ["0-3M", "3-6M", "6-9M", "9-12M"],
+    "images": [
+      "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Building Blocks Set",
+    "brand": "Lego",
+    "price": 1299,
+    "discount": "25% OFF",
+    "category": "Kids",
+    "subcategory": "Toys",
+    "description": "Creative building blocks set to enhance your child's creativity.",
+    "sizes": ["One Size"],
+    "images": [
+      "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1560961911-ba7ef651a56c?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "School Backpack",
+    "brand": "Wildcraft",
+    "price": 899,
+    "discount": "30% OFF",
+    "category": "Kids",
+    "subcategory": "School Essentials",
+    "description": "Durable school backpack with multiple compartments.",
+    "sizes": ["One Size"],
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Boys Denim Shorts",
+    "brand": "UCB Kids",
+    "price": 599,
+    "discount": "50% OFF",
+    "category": "Kids",
+    "subcategory": "Boys Clothing",
+    "description": "Stylish denim shorts for boys perfect for summer.",
+    "sizes": ["4-5Y", "5-6Y", "6-7Y", "7-8Y"],
+    "images": [
+      "https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Matte Lipstick",
+    "brand": "Maybelline",
+    "price": 299,
+    "discount": "20% OFF",
+    "category": "Beauty",
+    "subcategory": "Makeup",
+    "description": "Long-lasting matte lipstick in vibrant shades.",
+    "sizes": ["One Size"],
+    "images": [
+      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Vitamin C Serum",
+    "brand": "Minimalist",
+    "price": 599,
+    "discount": "15% OFF",
+    "category": "Beauty",
+    "subcategory": "Skincare",
+    "description": "Brightening vitamin C serum for glowing skin.",
+    "sizes": ["30ml"],
+    "images": [
+      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Hair Growth Shampoo",
+    "brand": "WOW",
+    "price": 449,
+    "discount": "25% OFF",
+    "category": "Beauty",
+    "subcategory": "Haircare",
+    "description": "Nourishing hair growth shampoo with natural ingredients.",
+    "sizes": ["200ml", "300ml"],
+    "images": [
+      "https://images.unsplash.com/photo-1626766632516-0b9ce7b1c1e8?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Dior Sauvage Perfume",
+    "brand": "Dior",
+    "price": 8999,
+    "discount": "10% OFF",
+    "category": "Beauty",
+    "subcategory": "Fragrances",
+    "description": "Iconic masculine fragrance with fresh and woody notes.",
+    "sizes": ["50ml", "100ml"],
+    "images": [
+      "https://images.unsplash.com/photo-1541643600914-78b084683702?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Foundation SPF 30",
+    "brand": "Lakme",
+    "price": 499,
+    "discount": "30% OFF",
+    "category": "Beauty",
+    "subcategory": "Makeup",
+    "description": "Lightweight foundation with SPF 30 for natural coverage.",
+    "sizes": ["One Size"],
+    "images": [
+      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1583241475880-083f84372725?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Body Lotion",
+    "brand": "Nivea",
+    "price": 249,
+    "discount": "20% OFF",
+    "category": "Beauty",
+    "subcategory": "Personal Care",
+    "description": "Deep moisturizing body lotion for soft and smooth skin.",
+    "sizes": ["200ml", "400ml"],
+    "images": [
+      "https://images.unsplash.com/photo-1619451334792-150fd785ee74?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Classic Sneakers",
+    "brand": "Nike",
+    "price": 3499,
+    "discount": "30% OFF",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "description": "Versatile sneakers that combine style and comfort.",
+    "sizes": ["UK6", "UK7", "UK8", "UK9", "UK10"],
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Oxford Formal Shoes",
+    "brand": "Clarks",
+    "price": 4999,
+    "discount": "25% OFF",
+    "category": "Footwear",
+    "subcategory": "Formal Shoes",
+    "description": "Classic Oxford formal shoes in genuine leather.",
+    "sizes": ["UK6", "UK7", "UK8", "UK9", "UK10"],
+    "images": [
+      "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Flat Sandals",
+    "brand": "Bata",
+    "price": 799,
+    "discount": "40% OFF",
+    "category": "Footwear",
+    "subcategory": "Sandals",
+    "description": "Comfortable flat sandals for everyday wear.",
+    "sizes": ["UK3", "UK4", "UK5", "UK6", "UK7"],
+    "images": [
+      "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1562273138-f46be4ebdf33?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Ankle Boots",
+    "brand": "Steve Madden",
+    "price": 3999,
+    "discount": "35% OFF",
+    "category": "Footwear",
+    "subcategory": "Boots",
+    "description": "Stylish ankle boots with block heel for a chic look.",
+    "sizes": ["UK3", "UK4", "UK5", "UK6", "UK7"],
+    "images": [
+      "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Running Shoes",
+    "brand": "Adidas",
+    "price": 4499,
+    "discount": "30% OFF",
+    "category": "Footwear",
+    "subcategory": "Sports Shoes",
+    "description": "High performance running shoes with cushioned sole.",
+    "sizes": ["UK6", "UK7", "UK8", "UK9", "UK10", "UK11"],
+    "images": [
+      "https://images.unsplash.com/photo-1539185441755-769473a23570?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Leather Tote Bag",
+    "brand": "Hidesign",
+    "price": 2999,
+    "discount": "30% OFF",
+    "category": "Accessories",
+    "subcategory": "Bags",
+    "description": "Premium leather tote bag with spacious compartments.",
+    "sizes": ["One Size"],
+    "images": [
+      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Analog Watch",
+    "brand": "Fastrack",
+    "price": 1999,
+    "discount": "40% OFF",
+    "category": "Accessories",
+    "subcategory": "Watches",
+    "description": "Stylish analog watch with leather strap.",
+    "sizes": ["One Size"],
+    "images": [
+      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Aviator Sunglasses",
+    "brand": "Ray-Ban",
+    "price": 5999,
+    "discount": "20% OFF",
+    "category": "Accessories",
+    "subcategory": "Sunglasses",
+    "description": "Classic aviator sunglasses with UV400 protection.",
+    "sizes": ["One Size"],
+    "images": [
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Gold Chain Necklace",
+    "brand": "Tanishq",
+    "price": 3499,
+    "discount": "15% OFF",
+    "category": "Accessories",
+    "subcategory": "Jewellery",
+    "description": "Elegant gold plated chain necklace for all occasions.",
+    "sizes": ["One Size"],
+    "images": [
+      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Leather Belt",
+    "brand": "Tommy Hilfiger",
+    "price": 1499,
+    "discount": "35% OFF",
+    "category": "Accessories",
+    "subcategory": "Belts",
+    "description": "Classic leather belt with metal buckle.",
+    "sizes": ["28", "30", "32", "34", "36"],
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1624222247344-550fb60fe8ff?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Crossbody Bag",
+    "brand": "Lavie",
+    "price": 1299,
+    "discount": "50% OFF",
+    "category": "Accessories",
+    "subcategory": "Bags",
+    "description": "Trendy crossbody bag perfect for daily use.",
+    "sizes": ["One Size"],
+    "images": [
+      "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Gym Tank Top",
+    "brand": "Under Armour",
+    "price": 799,
+    "discount": "40% OFF",
+    "category": "Sports",
+    "subcategory": "Gym Wear",
+    "description": "Performance tank top with moisture-wicking technology.",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "images": [
+      "https://images.unsplash.com/photo-1534258936925-c58bed479fcb?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Hiking Backpack",
+    "brand": "Quechua",
+    "price": 2499,
+    "discount": "30% OFF",
+    "category": "Sports",
+    "subcategory": "Outdoor",
+    "description": "Durable hiking backpack with rain cover and hydration system.",
+    "sizes": ["20L", "30L", "40L"],
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Yoga Mat",
+    "brand": "Boldfit",
+    "price": 699,
+    "discount": "35% OFF",
+    "category": "Sports",
+    "subcategory": "Yoga",
+    "description": "Non-slip yoga mat with extra thickness for comfort.",
+    "sizes": ["One Size"],
+    "images": [
+      "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Swimming Goggles",
+    "brand": "Speedo",
+    "price": 599,
+    "discount": "25% OFF",
+    "category": "Sports",
+    "subcategory": "Swimming",
+    "description": "Anti-fog swimming goggles with UV protection.",
+    "sizes": ["One Size"],
+    "images": [
+      "https://images.unsplash.com/photo-1530549387789-4c1017266635?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1560090995-04632ad94278?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Football",
+    "brand": "Nike",
+    "price": 1299,
+    "discount": "20% OFF",
+    "category": "Sports",
+    "subcategory": "Team Sports",
+    "description": "Professional match football with superior grip.",
+    "sizes": ["Size 3", "Size 4", "Size 5"],
+    "images": [
+      "https://images.unsplash.com/photo-1575361204480-aadea25e6e68?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1551958219-acbc595d916e?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Compression Tights",
+    "brand": "2XU",
+    "price": 1999,
+    "discount": "30% OFF",
+    "category": "Sports",
+    "subcategory": "Gym Wear",
+    "description": "High performance compression tights for training and recovery.",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&auto=format&fit=crop"
+    ]
+  },
+  {
+    "name": "Sports Water Bottle",
+    "brand": "Nalgene",
+    "price": 499,
+    "discount": "15% OFF",
+    "category": "Sports",
+    "subcategory": "Outdoor",
+    "description": "BPA-free sports water bottle with leak-proof lid.",
+    "sizes": ["500ml", "750ml", "1L"],
+    "images": [
+      "https://images.unsplash.com/photo-1523362628745-0c100150b504?w=500&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500&auto=format&fit=crop"
+    ]
+  }
+]
