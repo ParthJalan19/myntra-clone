@@ -17,32 +17,33 @@ router.get("/", async (req, res) => {
 router.get("/category/:name", async (req, res) => {
   try {
     const param = req.params.name;
-    console.log("Category param:", param);
-
-    // First find the category by name to get its _id
     const category = await Category.findOne({
       name: { $regex: new RegExp("^" + param + "$", "i") }
     });
-
     let products = [];
-
     if (category) {
-      // Search by categoryId using the found category's _id
       products = await Product.find({ categoryId: category._id });
-      console.log("Found by categoryId:", products.length);
     }
-
-    // Fallback: search by category name field
     if (products.length === 0) {
       products = await Product.find({
         category: { $regex: new RegExp("^" + param + "$", "i") }
       });
-      console.log("Found by category name:", products.length);
     }
-
     res.json(products);
   } catch (err) {
-    console.log("CATEGORY ROUTE ERROR:", err.message);
+    res.status(500).json({ message: "Server error" });
+  }
+});
+
+// Get products by subcategory
+router.get("/subcategory/:name", async (req, res) => {
+  try {
+    const name = req.params.name;
+    const products = await Product.find({
+      subcategory: { $regex: new RegExp("^" + name + "$", "i") }
+    });
+    res.json(products);
+  } catch (err) {
     res.status(500).json({ message: "Server error" });
   }
 });
@@ -54,7 +55,6 @@ router.get("/recommend/:name", async (req, res) => {
     const category = await Category.findOne({
       name: { $regex: new RegExp("^" + param + "$", "i") }
     });
-
     let products = [];
     if (category) {
       products = await Product.find({ categoryId: category._id }).limit(10);
@@ -64,14 +64,13 @@ router.get("/recommend/:name", async (req, res) => {
         category: { $regex: new RegExp("^" + param + "$", "i") }
       }).limit(10);
     }
-
     res.json(products);
   } catch (err) {
     res.status(500).json({ message: "Error fetching recommendations" });
   }
 });
 
-// Get single product by ID
+// Get single product by ID - MUST BE LAST
 router.get("/:id", async (req, res) => {
   try {
     const product = await Product.findById(req.params.id);
@@ -79,22 +78,6 @@ router.get("/:id", async (req, res) => {
     res.json(product);
   } catch (err) {
     res.status(500).json({ message: "Error fetching product" });
-  }
-});
-
-// Get products by subcategory
-router.get("/subcategory/:name", async (req, res) => {
-  try {
-    const name = req.params.name;
-    console.log("Subcategory:", name);
-    const products = await Product.find({
-      subcategory: { $regex: new RegExp("^" + name + "$", "i") }
-    });
-    console.log("Found:", products.length, "products");
-    res.json(products);
-  } catch (err) {
-    console.log("SUBCATEGORY ERROR:", err.message);
-    res.status(500).json({ message: "Server error" });
   }
 });
 
