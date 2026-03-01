@@ -82,4 +82,20 @@ router.get("/:id", async (req, res) => {
   }
 });
 
+// Get products by subcategory
+router.get("/subcategory/:name", async (req, res) => {
+  try {
+    const name = req.params.name;
+    console.log("Subcategory:", name);
+    const products = await Product.find({
+      subcategory: { $regex: new RegExp("^" + name + "$", "i") }
+    });
+    console.log("Found:", products.length, "products");
+    res.json(products);
+  } catch (err) {
+    console.log("SUBCATEGORY ERROR:", err.message);
+    res.status(500).json({ message: "Server error" });
+  }
+});
+
 module.exports = router;
