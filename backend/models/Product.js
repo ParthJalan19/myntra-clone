@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-
 const ProductSchema = new mongoose.Schema(
   {
     name: String,
@@ -9,11 +8,10 @@ const ProductSchema = new mongoose.Schema(
     description: String,
     sizes: [String],
     images: [String],
-    // ✅ FIX: added subcategory field so filter works in category screen
     subcategory: { type: String, default: "" },
-    categoryId: { type: mongoose.Schema.Types.ObjectId, ref: "Category" },
+    category: { type: String, default: "" },
+    categoryId: { type: mongoose.Schema.Types.ObjectId, ref: "Category", required: false },
   },
   { timestamps: true }
 );
-
 module.exports = mongoose.model("Product", ProductSchema);
