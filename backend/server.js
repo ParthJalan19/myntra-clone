@@ -55,14 +55,3 @@ app.listen(PORT, "0.0.0.0", () =>
   console.log(`🚀 Server running on port ${PORT}`)
 );
 
-app.get("/seed", async (req, res) => {
-  try {
-    const Product = require('./models/Product');
-    const prod = require('./product.json');
-    await Product.deleteMany({});
-    await Product.insertMany(prod);
-    res.send("Seeded " + prod.length + " products!");
-  } catch(err) {
-    res.send("Error: " + err.message);
-  }
-});
